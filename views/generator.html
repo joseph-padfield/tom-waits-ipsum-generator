@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Generator - placeholder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="main-container">
+    <div class="title-box">
+        <h1>TOM WAITS IPSUM</h1>
+    </div>
+
+    <form method="post">
+        <label for="paras">Paragraphs: </label>
+        <select name="country" id="paras">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <button>Generate</button>
+    </form>
+
+    <div class="ipsum-body">
+        <p>
+            <%= ipsum[0] %>
+            <%= ipsum[4] %>
+            <%= ipsum[12] %>
+            <%= ipsum[34] %>
+            <%= ipsum[3] %>
+            <%= ipsum[6] %>
+        </p>
+    </div>
+</div>
+
+
+</body>
+</html>

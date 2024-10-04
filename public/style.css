@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("bodybg_albums.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 5rem 3rem 5rem;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+h1 {
+  color: white;
+  font-family: "impact";
+  font-size: 4rem;
+}
+
+label {
+  color: white;
+  font-family: "arial";
+}
+
+button {
+  color: black;
+  font-family: "arial";
+}
+
+p {
+  color: white;
+  font-family: "arial";
+  max-width: 25rem;
+  min-height: 25rem;
+  border: white 1px solid;
+  border-radius: 5px;
+  padding: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.77);
+}
+
+/*# sourceMappingURL=style.css.map */
