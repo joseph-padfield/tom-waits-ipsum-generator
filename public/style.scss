@@ -14,14 +14,15 @@ body {
   justify-content: center;
   background-image: url("bodybg_albums.jpg");
   background-size: cover;
-  background-position: bottom;
+  background-position: 20%;
 }
 
 .main-container {
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 5rem 3rem 5rem;
+  padding: 0 3rem 3rem 3rem;
   border-radius: 5px;
 }
 
@@ -35,27 +36,53 @@ form {
 h1 {
   color: $color;
   font-family: $titleFont;
-  font-size: 4rem;
+  font-size: 3rem;
+  text-align: right;
+  text-shadow: 2px 2px 2px black;
+  font-weight: bold;
+}
+
+form {
+  background-color: rgba(0, 0, 0, 0.59);
+  padding: 0.2rem;
+  border-radius: 3px;
+
 }
 
 label {
   color: $color;
   font-family: $bodyFont;
+  text-shadow: 1px 1px 1px black;
+  padding: 0.1rem;
+
 }
 
 button {
   color: black;
   font-family: $bodyFont;
+  border-radius: 5px;
+}
+
+select {
+  border-radius: 5px;
+  color: black;
 }
 
 p {
   color: $color;
   font-family: $bodyFont;
   max-width: 25rem;
-  min-height: 25rem;
+  height: 30rem;
   border: white 1px solid;
   border-radius: 5px;
   padding: 0.5rem;
   background-color: rgba(0, 0, 0, 0.77);
+  overflow: auto;
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 6rem;
+  }
 }
 
