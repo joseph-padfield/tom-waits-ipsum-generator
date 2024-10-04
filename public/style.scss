@@ -6,6 +6,19 @@ $titleFont: 'impact';
 $bodyFont: 'arial';
 $color: white;
 
+.title-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  p {
+    height: unset;
+    font-size: 0.5rem;
+    width: fit-content;
+    border: unset;
+  }
+}
+
 body {
   height: 100vh;
   display: flex;
@@ -22,6 +35,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding: 0 3rem 3rem 3rem;
   border-radius: 5px;
 }
@@ -40,10 +54,11 @@ h1 {
   text-align: right;
   text-shadow: 2px 2px 2px black;
   font-weight: bold;
+  margin-bottom: 0;
 }
 
 form {
-  background-color: rgba(0, 0, 0, 0.59);
+  background-color: rgba(0, 0, 0, 0.77);
   padding: 0.2rem;
   border-radius: 3px;
 
@@ -81,8 +96,15 @@ p {
 }
 
 @media (min-width: 1200px) {
+
   h1 {
     font-size: 6rem;
+  }
+}
+
+@media (min-width: 473px) {
+  .title-box {
+    align-items: center;
   }
 }
 
