@@ -14,14 +14,14 @@ body {
   justify-content: center;
   background-image: url("bodybg_albums.jpg");
   background-size: cover;
-  background-position: bottom;
+  background-position: 20%;
 }
 
 .main-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 5rem 3rem 5rem;
+  padding: 0 3rem 3rem 3rem;
   border-radius: 5px;
 }
 
@@ -35,7 +35,8 @@ form {
 h1 {
   color: $color;
   font-family: $titleFont;
-  font-size: 4rem;
+  font-size: 3rem;
+  text-align: right;
 }
 
 label {
@@ -52,10 +53,11 @@ p {
   color: $color;
   font-family: $bodyFont;
   max-width: 25rem;
-  min-height: 25rem;
+  height: 35rem;
   border: white 1px solid;
   border-radius: 5px;
   padding: 0.5rem;
   background-color: rgba(0, 0, 0, 0.77);
+  overflow: auto;
 }
 
