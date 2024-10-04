@@ -11,8 +11,10 @@ $color: white;
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
+
   a {
     text-decoration: none;
+
     p {
       display: flex;
       flex-direction: row;
@@ -22,16 +24,17 @@ $color: white;
       font-size: 0.8rem;
       width: fit-content;
       border: unset;
+
       i {
         font-size: 1.5rem;
       }
     }
+
     p:hover {
       background-color: white;
       color: black;
     }
   }
-
 
 
 }
