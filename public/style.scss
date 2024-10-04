@@ -11,12 +11,29 @@ $color: white;
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  p {
-    height: unset;
-    font-size: 0.5rem;
-    width: fit-content;
-    border: unset;
+  a {
+    text-decoration: none;
+    p {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 1rem;
+      height: unset;
+      font-size: 0.8rem;
+      width: fit-content;
+      border: unset;
+      i {
+        font-size: 1.5rem;
+      }
+    }
+    p:hover {
+      background-color: white;
+      color: black;
+    }
   }
+
+
+
 }
 
 body {
@@ -74,8 +91,14 @@ label {
 
 button {
   color: black;
+  background-color: $color;
   font-family: $bodyFont;
   border-radius: 5px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
 }
 
 select {

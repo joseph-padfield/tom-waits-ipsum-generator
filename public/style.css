@@ -8,11 +8,25 @@
   justify-content: center;
   align-items: flex-end;
 }
-.title-box p {
+.title-box a {
+  text-decoration: none;
+}
+.title-box a p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
   height: unset;
-  font-size: 0.5rem;
+  font-size: 0.8rem;
   width: fit-content;
   border: unset;
+}
+.title-box a p i {
+  font-size: 1.5rem;
+}
+.title-box a p:hover {
+  background-color: white;
+  color: black;
 }
 
 body {
@@ -68,8 +82,14 @@ label {
 
 button {
   color: black;
+  background-color: white;
   font-family: "arial";
   border-radius: 5px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
 }
 
 select {
